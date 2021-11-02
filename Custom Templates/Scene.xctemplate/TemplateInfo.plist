@@ -5,9 +5,9 @@
 	);
 	Options = (
 		{
-			Description = "The name of the module to create";
+			Description = "The name of the scene to create";
 			Identifier = productName;
-			Name = "New Test Class Name:";
+			Name = "New Scene Name:";
 			Required = YES;
 			Type = text;
 		},
