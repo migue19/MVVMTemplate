@@ -10,7 +10,7 @@ class ___VARIABLE_productName:identifier___Repository: ___VARIABLE_productName:i
     let model: ModelToReplace
     
     init(model: ModelToReplace) {
-        self.model = meal
+        self.model = model
     }
     
     func getData() -> AnyPublisher<ModelToReplace, Never> {

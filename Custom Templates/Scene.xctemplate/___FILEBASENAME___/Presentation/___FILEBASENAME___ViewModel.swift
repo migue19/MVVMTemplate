@@ -8,7 +8,7 @@ class ___VARIABLE_productName:identifier___ViewModel: ___VARIABLE_productName:id
     private var subscriptions = Set<AnyCancellable>()
     var output: ___VARIABLE_productName:identifier___ViewModelOutput = ___VARIABLE_productName:identifier___ViewModelOutput()
     
-    init(useCase: ___VARIABLE_productName:identifier___UseCaseProtocol = ___VARIABLE_productName:identifier___UseCase()) {
+    init(useCase: ___VARIABLE_productName:identifier___UseCaseProtocol) {
         self.useCase = useCase
     }
     
