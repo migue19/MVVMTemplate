@@ -16,7 +16,7 @@ class ___VARIABLE_productName:identifier___Coordinator: Coordinator, ___VARIABLE
     func start() {
         let builder = ___VARIABLE_productName:identifier___SceneBuilder()
         let viewController = builder.build()
-        navigationController.pushViewController(viewController, animated: false)
+        navigationController.pushViewController(viewController, animated: true)
     }
     
     // MARK: - Flow Methods

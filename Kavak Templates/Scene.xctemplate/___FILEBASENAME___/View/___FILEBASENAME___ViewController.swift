@@ -21,6 +21,7 @@ class ___VARIABLE_productName:identifier___ViewController: UIViewController {
         super.viewDidLoad()
         self.setupView()
         self.bind()
+        self.viewModelInput.viewLoadedPublisher.send()
     }
     
     private func setupView() {
