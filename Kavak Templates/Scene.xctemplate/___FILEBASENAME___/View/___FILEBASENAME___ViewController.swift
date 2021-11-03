@@ -4,7 +4,7 @@ import UIKit
 import Combine
 
 class ___VARIABLE_productName:identifier___ViewController: UIViewController {
-    private let viewModel: ___VARIABLE_productName:identifier___ViewModelProtocol
+    let viewModel: ___VARIABLE_productName:identifier___ViewModelProtocol
     private let viewModelInput: ___VARIABLE_productName:identifier___ViewModelInput = ___VARIABLE_productName:identifier___ViewModelInput()
     private var subscriptions = Set<AnyCancellable>()
     
