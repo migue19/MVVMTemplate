@@ -3,6 +3,7 @@
 import Foundation
 import Combine
 import UIKit
+import KavakFoundation
 
 class ___VARIABLE_productName:identifier___Coordinator: Coordinator, ___VARIABLE_productName:identifier___CoordinatorProtocol {
     var children: [Coordinator] = []
