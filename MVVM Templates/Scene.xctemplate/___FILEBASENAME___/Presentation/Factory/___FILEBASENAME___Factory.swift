@@ -3,7 +3,7 @@
 import Foundation
 
 /// Factory para inyectar dependencias en ___FILEBASENAME___
-struct ___FILEBASENAME___Factory {
+struct ___FILEBASENAME___ {
 
     /// Crea el ViewController de ___FILEBASENAME___ completamente configurado
     /// - Returns: ___FILEBASENAME___ViewController con todas las dependencias inyectadas
