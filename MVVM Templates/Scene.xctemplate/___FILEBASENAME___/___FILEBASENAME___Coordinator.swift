@@ -2,8 +2,8 @@
 
 import UIKit
 
-/// Coordinator para manejar la navegación de ___FILEBASENAME___
-final class ___FILEBASENAME___Coordinator {
+/// Coordinator para manejar la navegación de ___VARIABLE_productName___
+final class ___VARIABLE_productName___Coordinator {
 
     // MARK: - Properties
 
@@ -18,8 +18,8 @@ final class ___FILEBASENAME___Coordinator {
     // MARK: - Public Methods
 
     func start() {
-        let ___FILEBASENAME___ = ___FILEBASENAME___Factory.make___FILEBASENAME___ViewController()
-        navigationController?.pushViewController(___FILEBASENAME___, animated: true)
+        let viewController = ___VARIABLE_productName___Factory.make___VARIABLE_productName___ViewController()
+        navigationController?.pushViewController(viewController, animated: true)
     }
 
     // TODO: Agregar métodos para navegación a otras pantallas

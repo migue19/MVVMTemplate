@@ -3,9 +3,9 @@
 import Combine
 import Foundation
 
-/// ViewModel para ___FILEBASENAME___
+/// ViewModel para ___VARIABLE_productName___
 /// Capa de presentación con reactividad usando Combine y @Published
-final class ___FILEBASENAME___ViewModel: ObservableObject {
+final class ___VARIABLE_productName___ViewModel: ObservableObject {
 
     // MARK: - Published Properties
 
@@ -14,12 +14,12 @@ final class ___FILEBASENAME___ViewModel: ObservableObject {
 
     // MARK: - Private Properties
 
-    private let useCase: ___FILEBASENAME___UseCase
+    private let useCase: ___VARIABLE_productName___UseCase
     private var cancellables = Set<AnyCancellable>()
 
     // MARK: - Lifecycle
 
-    init(useCase: ___FILEBASENAME___UseCase) {
+    init(useCase: ___VARIABLE_productName___UseCase) {
         self.useCase = useCase
     }
 

@@ -5,11 +5,13 @@
 	);
 	Options = (
 		{
-			Description = "The name of the scene to create";
-			Identifier = productName;
-			Name = "New Scene Name:";
+			Identifier = "productName";
+			Name = "Module Name:";
+			Description = "El nombre base para el Coordinator y Factory";
+			Type = "text";
+			Default = "MyModule";
 			Required = YES;
-			Type = text;
+			NotPersisted = YES;
 		},
 	);
 }

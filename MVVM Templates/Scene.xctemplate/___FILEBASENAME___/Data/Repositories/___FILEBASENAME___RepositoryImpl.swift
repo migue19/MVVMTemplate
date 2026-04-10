@@ -3,9 +3,9 @@
 import Combine
 import Foundation
 
-/// Implementación del repositorio para ___FILEBASENAME___
+/// Implementación del repositorio para ___VARIABLE_productName___
 /// Capa de datos - Contiene los detalles de implementación del acceso a datos
-final class ___FILEBASENAME___RepositoryImpl: ___FILEBASENAME___Repository {
+final class ___VARIABLE_productName___RepositoryImpl: ___VARIABLE_productName___Repository {
 
     // TODO: Agregar datasources (API client, CoreData, etc.)
     // Ejemplo:
@@ -20,5 +20,5 @@ final class ___FILEBASENAME___RepositoryImpl: ___FILEBASENAME___Repository {
     //     self.localDataSource = localDataSource
     // }
 
-    // TODO: Implementar métodos del protocolo ___FILEBASENAME___Repository
+    // TODO: Implementar métodos del protocolo ___VARIABLE_productName___Repository
 }

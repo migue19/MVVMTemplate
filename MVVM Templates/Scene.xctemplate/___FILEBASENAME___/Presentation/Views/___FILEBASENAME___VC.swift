@@ -2,16 +2,16 @@
 
 import UIKit
 
-/// ViewController para ___FILEBASENAME___
-final class ___FILEBASENAME___ViewController: UIViewController {
+/// ViewController para ___VARIABLE_productName___
+final class ___VARIABLE_productName___VC: UIViewController {
 
     // MARK: - Properties
 
-    private let viewModel: ___FILEBASENAME___ViewModel
+    private let viewModel: ___VARIABLE_productName___ViewModel
 
     // MARK: - Lifecycle
 
-    init(viewModel: ___FILEBASENAME___ViewModel) {
+    init(viewModel: ___VARIABLE_productName___ViewModel) {
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
     }
@@ -23,7 +23,6 @@ final class ___FILEBASENAME___ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         setupUI()
         bindViewModel()
     }

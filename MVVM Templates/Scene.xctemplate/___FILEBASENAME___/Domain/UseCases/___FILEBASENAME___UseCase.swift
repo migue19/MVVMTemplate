@@ -3,12 +3,12 @@
 import Combine
 import Foundation
 
-/// Use case para ___FILEBASENAME___
+/// Use case para ___VARIABLE_productName___
 /// Contiene la lógica de negocio independiente de frameworks
-final class ___FILEBASENAME___UseCase {
-    private let repository: ___FILEBASENAME___Repository
+final class ___VARIABLE_productName___UseCase {
+    private let repository: ___VARIABLE_productName___Repository
 
-    init(repository: ___FILEBASENAME___Repository) {
+    init(repository: ___VARIABLE_productName___Repository) {
         self.repository = repository
     }
 
