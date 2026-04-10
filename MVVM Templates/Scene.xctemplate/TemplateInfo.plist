@@ -7,7 +7,7 @@
 		{
 			Identifier = "productName";
 			Name = "Module Name:";
-			Description = "El nombre base para el Coordinator y Factory";
+			Description = "El nombre base para el módulo";
 			Type = "text";
 			Default = "MyModule";
 			Required = YES;
