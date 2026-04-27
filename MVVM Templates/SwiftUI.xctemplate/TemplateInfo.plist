@@ -1,0 +1,17 @@
+{
+	Kind = "Xcode.IDEFoundation.TextSubstitutionFileTemplateKind";
+	Platforms = (
+		"com.apple.platform.iphoneos",
+	);
+	Options = (
+		{
+			Identifier = "productName";
+			Name = "Module Name:";
+			Description = "El nombre base para el Coordinator y Factory";
+			Type = "text";
+			Default = "MyModule";
+			Required = YES;
+			NotPersisted = YES;
+		},
+	);
+}
