@@ -1,6 +1,7 @@
 //___FILEHEADER___
 
 import Foundation
+import SwiftUI
 
 /// Factory para inyectar dependencias en ___VARIABLE_productName___Factory
 /// Crea y configura la Vista de ___VARIABLE_productName___ con todas sus dependencias (Repository, UseCase, ViewModel)

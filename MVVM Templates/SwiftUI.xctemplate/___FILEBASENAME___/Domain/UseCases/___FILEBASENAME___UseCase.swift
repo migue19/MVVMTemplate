@@ -8,7 +8,7 @@ import Foundation
 final class ___VARIABLE_productName___UseCase {
     private let repository: ___VARIABLE_productName___Repository
 
-    init(repository: ___VARIABLE_productName___Repository) {
+    init(repository: ___VARIABLE_productName___Repository = ___VARIABLE_productName___RepositoryImpl()) {
         self.repository = repository
     }
 

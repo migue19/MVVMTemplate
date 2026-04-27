@@ -19,7 +19,7 @@ final class ___VARIABLE_productName___ViewModel: ObservableObject {
 
     // MARK: - Lifecycle
 
-    init(useCase: ___VARIABLE_productName___UseCase) {
+    init(useCase: ___VARIABLE_productName___UseCase = ___VARIABLE_productName___UseCase()) {
         self.useCase = useCase
     }
 
